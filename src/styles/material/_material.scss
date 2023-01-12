@@ -1,0 +1,73 @@
+@use '@angular/material' as mat;
+@use 'sass:map';
+
+// @use '../../../src/app/shared/notification/notification.component.scss-theme' as
+//   toast;
+
+// .material-icons {
+//   direction: ltr;
+//   display: inline-block;
+//   font-family: Material Icons, serif;
+//   font-feature-settings: 'liga';
+//   font-size: 24px;
+//   -webkit-font-smoothing: antialiased;
+//   font-style: normal;
+//   font-weight: normal;
+//   letter-spacing: normal;
+//   line-height: 1;
+//   text-transform: none;
+//   white-space: nowrap;
+//   word-wrap: normal;
+// }
+
+// $typography-config: mat.define-typography-config(
+//   $font-family: tbc-akwe-geo_regular,
+//   $display-4:
+//     mat.define-typography-level(112px, 112px, 300, $letter-spacing: -0.05em),
+//   $display-3:
+//     mat.define-typography-level(56px, 56px, 400, $letter-spacing: -0.02em),
+//   $display-2:
+//     mat.define-typography-level(45px, 48px, 400, $letter-spacing: -0.005em),
+//   $display-1: mat.define-typography-level(34px, 40px, 400),
+//   $headline: mat.define-typography-level(24px, 32px, 400),
+//   $title: mat.define-typography-level(20px, 32px, 500),
+//   $subheading-2: mat.define-typography-level(16px, 28px, 400),
+//   $subheading-1: mat.define-typography-level(15px, 24px, 400),
+//   $body-2: mat.define-typography-level(14px, 24px, 500),
+//   $body-1: mat.define-typography-level(14px, 20px, 400),
+//   $caption: mat.define-typography-level(12px, 20px, 400),
+//   $button: mat.define-typography-level(14px, 14px, 500),
+//   /* Line-height must be unit-less fraction of the font-size.*/ $input:
+//     mat.define-typography-level(inherit, 1.125, 400)
+// );
+
+// @include mat.core($typography-config: $typography-config);
+
+@import 'palettes';
+
+$primary: mat.define-palette(mat.$indigo-palette);
+$accent: mat.define-palette(mat.$pink-palette);
+$warn: mat.define-palette(mat.$red-palette);
+$success: mat.define-palette($success-palette);
+$theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $primary,
+      accent: $accent,
+      warn: $warn
+    )
+  )
+);
+$theme: map.deep-merge(
+  $theme,
+  (
+    success: $success,
+    color: (
+      success: $success
+    )
+  )
+);
+
+@include mat.all-component-themes($theme);
+
+// @include toast.toast-component-theme($tbc-payment-settlement-theme);

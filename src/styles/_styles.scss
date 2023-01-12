@@ -1,0 +1,29 @@
+@import 'import';
+@import 'bootstrap/bootstrap';
+@import 'fonts';
+@import 'material/material';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  // font-feature-settings: "case" on;
+  // text-transform: uppercase;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

@@ -15,7 +15,7 @@ For plan we need resources:
 
 Plan resources are optional. We need these resources to implement our plan. The idea is to start an Intermediate Online Course(the topic can be anything, depending on what you are interested in or working on). After watching one topic and implementing it parallel to the course (the code will be written in this course), after we search and read some blog articles or watch YouTube Advanced videos about it, after that we write a little essay (this is why [writing](https://www.youtube.com/watch?v=bfDOoADCfkg) essay is important, this is the [GUIDE](https://docs.google.com/viewer?url=http://jordanbpeterson.com/wp-content/uploads/2018/02/Essay_Writing_Guide.docx) for writing a great essay about anything.), then we go again.
 
-We will work on it for 6 days a week (if you can, of course; if not, try your best, start with a very small step to trick your lazy mind). Our purpose is to do one of these thingsgit in one day:
+We will work on it for 6 days a week (if you can, of course; if not, try your best, start with a very small step to trick your lazy mind). Our purpose is to do one of these things in one day:
 
 - watch tutorial "X"
 - reading 1 article from my list
