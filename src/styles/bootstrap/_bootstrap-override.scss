@@ -1,0 +1,31 @@
+@import '../color';
+@import '../color';
+
+// $variable-prefix: 'pro-prefix-name';
+$primary-text-color: #7f7f7f;
+$colors: (
+  'blue': $blue,
+  'red': $red,
+  'yellow': $yellow,
+  'green': $green,
+  'white': $white,
+  'gray': $gray-500,
+  'gray-dark': $gray-900
+);
+$primary: $blue;
+$secondary: $gray-500;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark
+);
+$container-padding-x: 0;

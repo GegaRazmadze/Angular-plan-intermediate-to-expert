@@ -1,0 +1,102 @@
+@import '../color';
+
+$contrast: (
+  50: $color-contrast-dark,
+  100: $color-contrast-dark,
+  200: $color-contrast-dark,
+  300: $color-contrast-dark,
+  400: $color-contrast-dark,
+  500: $color-contrast-light,
+  600: $color-contrast-light,
+  700: $color-contrast-light,
+  800: $color-contrast-light,
+  900: $color-contrast-light,
+  a100: $color-contrast-dark,
+  a200: $color-contrast-dark,
+  a400: $color-contrast-dark,
+  a700: $color-contrast-dark
+);
+
+$danger-palette: (
+  50: $red-50,
+  100: $red-100,
+  200: $red-200,
+  300: $red-300,
+  400: $red-400,
+  500: $red-500,
+  600: $red-600,
+  700: $red-700,
+  800: $red-800,
+  900: $red-900,
+  A100: #ffd4d4,
+  A200: #ffa1a1,
+  A400: #ff6e6f,
+  A700: #ff5455,
+  contrast: $contrast
+);
+$success-palette: (
+  50: $green-50,
+  100: $green-100,
+  200: $green-200,
+  300: $green-300,
+  400: $green-400,
+  500: $green-500,
+  600: $green-600,
+  700: $green-700,
+  800: $green-800,
+  900: $green-900,
+  A100: #a8ffe9,
+  A200: #75ffdd,
+  A400: #42ffd0,
+  A700: #29ffc9,
+  contrast: $contrast
+);
+$warn-palette: (
+  50: $yellow-50,
+  100: $yellow-100,
+  200: $yellow-200,
+  300: $yellow-300,
+  400: $yellow-400,
+  500: $yellow-500,
+  600: $yellow-600,
+  700: $yellow-700,
+  800: $yellow-800,
+  900: $yellow-900,
+  A100: #fff,
+  A200: #fff5e5,
+  A400: #ffe0b3,
+  A700: #ffd699,
+  contrast: $contrast
+);
+$secondary-palette: (
+  50: $gray-50,
+  100: $gray-100,
+  200: $gray-200,
+  300: $gray-300,
+  400: $gray-400,
+  500: $gray-500,
+  600: $gray-600,
+  700: $gray-700,
+  800: $gray-800,
+  900: $gray-900,
+  A100: #f8bfbf,
+  A200: #f39191,
+  A400: #ff5252,
+  A700: #ff3838,
+  contrast: (
+    50: #000,
+    100: #000,
+    200: #000,
+    300: #000,
+    400: #000,
+    500: #fff,
+    600: #fff,
+    700: #fff,
+    800: #fff,
+    900: #fff,
+    A100: #000,
+    A200: #000,
+    A400: #000,
+    A700: #fff
+  )
+);
